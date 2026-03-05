@@ -1,4 +1,25 @@
+# Node modules
 node_modules/
-.env/
-npm-debug.log/
-.DS_Store/
+
+# Logs
+logs
+*.log
+npm-debug.log*
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# Environment variables
+.env
+
+# Build folders
+dist/
+build/
+
+# Docker
+docker-compose.override.yml
+
+# Editor folders
+.vscode/
+.idea/
